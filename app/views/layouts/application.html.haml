@@ -2,9 +2,34 @@
 %html
   %head
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-    %title Corp
+    = render 'layouts/ga'
+    = render 'layouts/meta_tags'
+    = favicon_link_tag()
     = csrf_meta_tags
-    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
-    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    %title 株式会社西越
+    = stylesheet_link_tag    'application', media: 'all'
+    = javascript_include_tag 'application'
+    %link{:href => "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Monsterrat:400,700|Merriweather:400,300italic,700", :rel => "stylesheet", :type => "text/css"}/
+    / Animate.css
+    %link{:href => "voltage/css/animate.css", :rel => "stylesheet"}/
+    / Icomoon Icon Fonts
+    %link{:href => "voltage/css/icomoon.css", :rel => "stylesheet"}/
+    / Magnific Popup
+    %link{:href => "voltage/css/magnific-popup.css", :rel => "stylesheet"}/
+    / Owl Carousel
+    %link{:href => "voltage/css/owl.carousel.min.css", :rel => "stylesheet"}/
+    %link{:href => "voltage/css/owl.theme.default.min.css", :rel => "stylesheet"}/
+    / Bootstrap
+    %link{:href => "voltage/css/bootstrap.css", :rel => "stylesheet"}/
+    / Cards
+    %link{:href => "voltage/css/cards.css", :rel => "stylesheet"}/
+    / Modernizr JS
+    %script{:src => "voltage/js/modernizr-2.6.2.min.js"}
+    / FOR IE9 below
+    /[if lt IE 9]
+      <script src="js/respond.min.js"></script>
   %body
-    = yield
+    #fh5co-page
+      = render 'layouts/header'
+      = yield
+      = render 'layouts/footer'

@@ -11,9 +11,11 @@ gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
-gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
+
+gem 'bootstrap-sass'
+gem "font-awesome-rails"
 
 # for haml
 gem 'haml-rails'
@@ -37,6 +39,7 @@ gem 'unicorn'
 
 group :development, :test do
   gem 'pry-rails'
+  gem 'binding_of_caller'
 end
 
 group :development do

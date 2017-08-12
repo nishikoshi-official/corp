@@ -121,9 +121,9 @@ a:hover, a:focus, a:active {
 }
 
 .btn-success {
-  background: #58ca7e;
+  background: #e67e22;
   color: #fff;
-  border: 2px solid #58ca7e;
+  border: 2px solid #e67e22;
 }
 .btn-success:hover, .btn-success:focus, .btn-success:active {
   background: #45c46f !important;
@@ -131,11 +131,11 @@ a:hover, a:focus, a:active {
 }
 .btn-success.btn-outline {
   background: transparent;
-  color: #58ca7e;
-  border: 2px solid #58ca7e;
+  color: #e67e22;
+  border: 2px solid #e67e22;
 }
 .btn-success.btn-outline:hover, .btn-success.btn-outline:focus, .btn-success.btn-outline:active {
-  background: #58ca7e;
+  background: #e67e22;
   color: #fff;
 }
 
@@ -220,7 +220,7 @@ a:hover, a:focus, a:active {
 }
 
 .lnk-success {
-  color: #58ca7e;
+  color: #e67e22;
 }
 .lnk-success:hover, .lnk-success:focus, .lnk-success:active {
   color: #45c46f;
@@ -402,8 +402,8 @@ a:hover .lnk-icon-right {
   }
 }
 /*
-/////////////////////////////////////////////////// 
-2.0 NAVIGATIONS 
+///////////////////////////////////////////////////
+2.0 NAVIGATIONS
 ///////////////////////////////////////////////////
 */
 #fh5co-offcanvass {
@@ -414,7 +414,7 @@ a:hover .lnk-icon-right {
   padding: 20px;
   z-index: 1;
   display: none;
-  background: #384047;
+  background: #111111;
   -webkit-backface-visibility: hidden;
 }
 #fh5co-offcanvass.offcanvass-nav-style-2 .fh5co-special, #fh5co-offcanvass.offcanvass-nav-style-2 .fh5co-inline, #fh5co-offcanvass.offcanvass-nav-style-1 .fh5co-special, #fh5co-offcanvass.offcanvass-nav-style-1 .fh5co-inline {
@@ -523,8 +523,8 @@ a:hover .lnk-icon-right {
 }
 #fh5co-offcanvass ul li a.call-to-action {
   margin-top: 40px;
-  border: 2px solid #58ca7e;
-  background: #58ca7e;
+  border: 2px solid #e67e22;
+  background: #e67e22;
   padding: 2px 15px !important;
   display: -moz-inline-stack;
   display: inline-block;
@@ -539,7 +539,7 @@ a:hover .lnk-icon-right {
 #fh5co-offcanvass ul li a.call-to-action:hover {
   color: #fff;
   border: 2px solid #45c46f;
-  background: #45c46f;
+  background: #e67e22;
 }
 #fh5co-offcanvass ul.fh5co-inline {
   width: 100%;
@@ -693,8 +693,8 @@ a:hover .lnk-icon-right {
 }
 .fh5co-nav-style-1 .fh5co-link-wrap ul li a.call-to-action, .fh5co-nav-style-2 .fh5co-link-wrap ul li a.call-to-action {
   margin-top: 2px;
-  border: 2px solid #58ca7e;
-  background: #58ca7e;
+  border: 2px solid #e67e22;
+  background: #e67e22;
   padding: 2px 15px !important;
   display: -moz-inline-stack;
   display: inline-block;
@@ -708,8 +708,8 @@ a:hover .lnk-icon-right {
 }
 .fh5co-nav-style-1 .fh5co-link-wrap ul li a.call-to-action:hover, .fh5co-nav-style-2 .fh5co-link-wrap ul li a.call-to-action:hover {
   color: #fff;
-  border: 2px solid #45c46f;
-  background: #45c46f;
+  border: 2px solid #e67e22;
+  background: #e67e22;
 }
 .fh5co-nav-style-1 .fh5co-link-wrap ul li.active a, .fh5co-nav-style-2 .fh5co-link-wrap ul li.active a {
   color: #fff;
@@ -871,12 +871,13 @@ a:hover .lnk-icon-right {
   }
 }
 
-/* 
+/*
 ///////////////////////////////////////////////////
-3.0 COVERS 
+3.0 COVERS
 ///////////////////////////////////////////////////
 */
 .fh5co-cover {
+  background-image: asset-url('top.jpg');
   position: relative;
   min-height: 800px;
 }
@@ -939,7 +940,7 @@ a:hover .lnk-icon-right {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.6);
   z-index: 4;
 }
 
@@ -958,13 +959,13 @@ a:hover .lnk-icon-right {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.6);
   z-index: 4;
 }
 
-/* 
+/*
 ///////////////////////////////////////////////////
-4.0 PROJECTS 
+4.0 PROJECTS
 ///////////////////////////////////////////////////
 */
 /* PROJECTS STYLE #1 */
@@ -1057,9 +1058,10 @@ a:hover .lnk-icon-right {
   -ms-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
   -o-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
   box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.8);
-  background-repeat: no-repeat;
+  background-color: transparent;
   background-size: cover;
-  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
 }
 .fh5co-project-style-2 .fh5co-projects ul li a {
   width: 100%;
@@ -1121,7 +1123,7 @@ a:hover .lnk-icon-right {
   position: relative;
 }
 .fh5co-project-style-2 .fh5co-projects ul li a:hover .fh5co-overlay {
-  opacity: 0;
+  opacity: .4;
 }
 
 .fh5co-project-style-3 .fh5co-project-wrap {
@@ -1363,9 +1365,9 @@ a:hover .lnk-icon-right {
   transform: scale(1.1);
 }
 
-/* 
+/*
 ///////////////////////////////////////////////////
-5.0 CONTENTS 
+5.0 CONTENTS
 ///////////////////////////////////////////////////
 */
 .fh5co-content-style-2,
@@ -1819,9 +1821,9 @@ a:hover .lnk-icon-right {
   border-color: #035fc2;
 }
 
-/* 
+/*
 ///////////////////////////////////////////////////
-6.0 FEATURES 
+6.0 FEATURES
 ///////////////////////////////////////////////////
 */
 /* FEATURE STYLE #1 */
@@ -1952,6 +1954,17 @@ a:hover .lnk-icon-right {
   }
 }
 
+.fh5co-features-style-1 {
+  background-color: transparent;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  background-position: left top;
+}
+.fh5co-features-style-1 > .fh5co-overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
 .fh5co-features-style-2 .fh5co-feature {
   margin-bottom: 30px;
   float: left;
@@ -1963,7 +1976,7 @@ a:hover .lnk-icon-right {
 }
 .fh5co-features-style-2 .fh5co-feature .fh5co-icon i {
   font-size: 40px;
-  color: #58ca7e;
+  color: #e67e22;
 }
 .fh5co-features-style-2 .fh5co-feature .fh5co-desc {
   width: 80%;
@@ -2052,7 +2065,7 @@ a:hover .lnk-icon-right {
 }
 
 .fh5co-features-style-4 {
-  background: #58ca7e;
+  background: #e67e22;
 }
 .fh5co-features-style-4 .fh5co-section-heading .fh5co-heading {
   color: #fff;
@@ -2112,7 +2125,7 @@ a:hover .lnk-icon-right {
   bottom: 0;
   height: 2px;
   width: 30px;
-  background: #58ca7e;
+  background: #e67e22;
 }
 .fh5co-features-style-4 .fh5co-feature-item .fh5co-feature-img {
   position: absolute;
@@ -2161,7 +2174,7 @@ a:hover .lnk-icon-right {
   }
 }
 .fh5co-features-style-5 .icon {
-  color: #58ca7e !important;
+  color: #e67e22 !important;
   border: 1px solid rgba(255, 255, 255, 0.1);
   margin-bottom: 20px;
   display: table;
@@ -2179,9 +2192,9 @@ a:hover .lnk-icon-right {
   font-size: 40px;
 }
 
-/* 
+/*
 ///////////////////////////////////////////////////
-7.0 BLOGS 
+7.0 BLOGS
 ///////////////////////////////////////////////////
 */
 /* BLOG STYLE #1 */
@@ -2234,6 +2247,7 @@ a:hover .lnk-icon-right {
   overflow: hidden;
   border-top-right-radius: 7px;
   border-top-left-radius: 7px;
+  z-index: 1;
 }
 .fh5co-blog-style-1 .fh5co-post .fh5co-post-image .fh5co-overlay {
   z-index: 1;
@@ -2378,9 +2392,9 @@ a:hover .lnk-icon-right {
   transform: scale(1.1);
 }
 
-/* 
+/*
 ///////////////////////////////////////////////////
-8.0 BLOGS 
+8.0 BLOGS
 ///////////////////////////////////////////////////
 */
 .fh5co-team-style-1,
@@ -2586,7 +2600,7 @@ a:hover .lnk-icon-right {
   color: #1784fb;
 }
 
-/* 
+/*
 ///////////////////////////////////////////////////
 9.0 FOOTERS
 ///////////////////////////////////////////////////
@@ -2940,7 +2954,7 @@ a:hover .lnk-icon-right {
   color: #fb4f59;
 }
 
-/* 
+/*
 ///////////////////////////////////////////////////
 10.0 TESTIMONIALS
 ///////////////////////////////////////////////////
@@ -3069,7 +3083,7 @@ a:hover .lnk-icon-right {
   margin-bottom: 0;
 }
 
-/* 
+/*
 ///////////////////////////////////////////////////
 11.0 TESTIMONIALS
 ///////////////////////////////////////////////////
@@ -3160,7 +3174,7 @@ a:hover .lnk-icon-right {
 }
 
 .fh5co-pricing-style-2 {
-  background: #58ca7e;
+  background: #e67e22;
 }
 .fh5co-pricing-style-2 .fh5co-heading {
   color: #fff;
@@ -3209,7 +3223,7 @@ a:hover .lnk-icon-right {
 .fh5co-pricing-style-2 .pricing-price {
   font-size: 5em;
   font-weight: 800;
-  color: #58ca7e;
+  color: #e67e22;
   position: relative;
   z-index: 100;
 }
@@ -3254,7 +3268,7 @@ a:hover .lnk-icon-right {
   background-color: #4F5F56;
 }
 
-/* 
+/*
 ///////////////////////////////////////////////////
 11.0 TESTIMONIALS
 ///////////////////////////////////////////////////
@@ -3454,4 +3468,4 @@ a:hover .lnk-icon-right {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=cards.css.map */

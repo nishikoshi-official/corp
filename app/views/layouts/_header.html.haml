@@ -1,0 +1,17 @@
+%nav.fh5co-nav-style-1{"data-offcanvass-position" => "fh5co-offcanvass-left", :role => "navigation"}
+  .container
+    .col-lg-3.col-md-3.col-sm-3.col-xs-12.fh5co-logo
+      %a.js-fh5co-mobile-toggle.fh5co-nav-toggle{:href => "#"}
+        %i
+      = link_to do
+        = image_tag 'logo'
+    .col-lg-9.col-md-8.col-sm-8.text-right.fh5co-link-wrap
+      %ul{"data-offcanvass" => "yes"}
+        %li.active
+          %a{:href => "#"} about us
+        %li
+          %a{:href => "#"} our services
+        %li
+          %a{:href => "#"} clients
+        %li
+          %a.call-to-action{:href => "#"} contact
