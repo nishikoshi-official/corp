@@ -26,3 +26,5 @@ production:
   database: corp
   username: corp
   password: <%= ENV['CORP_DATABASE_PASSWORD'] %>
+  host: localhost
+  port: 5432
