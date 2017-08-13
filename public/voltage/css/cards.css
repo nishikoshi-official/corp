@@ -29,7 +29,7 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 16px;
   line-height: 26px;
-  color: gray;
+  color: #19254b;
   font-weight: 400;
 }
 @media screen and (max-width: 480px) {
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   font-family: "Montserrat", Arial, sans-serif;
   font-weight: 700;
-  color: #262626;
+  color: #19254b;
 }
 
 p {
@@ -198,7 +198,7 @@ a:hover, a:focus, a:active {
 
 .btn-outline {
   background: none;
-  border: 2px solid gray;
+  border: 2px solid #19254b;
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -758,7 +758,7 @@ a:hover .lnk-icon-right {
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav-style-2 #navbar .navbar-nav li a {
-    color: #262626;
+    color: #19254b;
   }
 }
 .fh5co-nav-style-2 #navbar .navbar-nav li a:hover {
@@ -818,7 +818,7 @@ a:hover .lnk-icon-right {
 @media screen and (max-width: 768px) {
   .fh5co-nav-style-2 .navbar-brand > span {
     background: rgba(0, 0, 0, 0.1);
-    color: #262626 !important;
+    color: #19254b !important;
   }
 }
 .fh5co-nav-style-2 .navbar-brand img {
@@ -1733,7 +1733,7 @@ a:hover .lnk-icon-right {
   font-weight: 400;
 }
 .fh5co-content-style-6 .link-block p, .fh5co-content-style-7 .link-block p {
-  color: gray;
+  color: #19254b;
 }
 .fh5co-content-style-6 .link-block .fh5co-meta, .fh5co-content-style-7 .link-block .fh5co-meta {
   color: #b3b3b3;
@@ -1853,13 +1853,13 @@ a:hover .lnk-icon-right {
 }
 .fh5co-features-style-1 > .fh5co-overlay,
 .fh5co-features-style-5 > .fh5co-overlay {
-  background: #fff!important;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 2;
+  color: #19254b
 }
 .fh5co-features-style-1 .fh5co-heading,
 .fh5co-features-style-5 .fh5co-heading {
@@ -2369,7 +2369,7 @@ a:hover .lnk-icon-right {
   color: #1784fb;
 }
 .fh5co-blog-style-2 .link-block p {
-  color: gray;
+  color: #19254b;
 }
 .fh5co-blog-style-2 .link-block .fh5co-meta {
   color: #b3b3b3;
@@ -2541,7 +2541,7 @@ a:hover .lnk-icon-right {
   *display: inline;
 }
 .fh5co-team-style-2 .fh5co-social li a {
-  color: gray;
+  color: #19254b;
   font-size: 18px;
   padding-left: 10px;
   padding-right: 10px;
@@ -2594,7 +2594,7 @@ a:hover .lnk-icon-right {
   font-size: 18px;
   padding-left: 10px;
   padding-right: 10px;
-  color: gray;
+  color: #19254b;
 }
 .fh5co-team-style-3 .person .social-circle li a:hover {
   color: #1784fb;
@@ -2758,7 +2758,7 @@ a:hover .lnk-icon-right {
 }
 .fh5co-footer-style-1 .fh5co-footer-inner .links li a {
   font-size: 14px;
-  color: gray;
+  color: #19254b;
 }
 .fh5co-footer-style-1 .fh5co-footer-inner .links li a:hover {
   text-decoration: none;
@@ -2865,7 +2865,7 @@ a:hover .lnk-icon-right {
 }
 
 .fh5co-footer-style-3 {
-  background: #262626;
+  background: #19254b;
   font-size: 15px;
 }
 .fh5co-footer-style-3 .fh5co-footer-widget {
@@ -2917,7 +2917,7 @@ a:hover .lnk-icon-right {
 }
 .fh5co-footer-style-3 .btn {
   border-color: rgba(255, 255, 255, 0.1);
-  color: gray;
+  color: #19254b;
 }
 .fh5co-footer-style-3 .fh5co-links {
   padding: 0;
@@ -3024,7 +3024,7 @@ a:hover .lnk-icon-right {
   font-style: italic;
 }
 .fh5co-testimonial-style-1 .box-testimony .author {
-  color: gray;
+  color: #19254b;
   margin-left: 20px;
   font-size: 15px;
 }
@@ -3113,7 +3113,7 @@ a:hover .lnk-icon-right {
   line-height: 16px;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
-  color: gray;
+  color: #19254b;
 }
 .fh5co-pricing-style-1 .fh5co-currency {
   vertical-align: super;
