@@ -26,5 +26,5 @@ staging:
 production:
   <<: *default
   database: corp
-  username: corp
+  username: nip0p0
   password: <%= ENV['CORP_DATABASE_PASSWORD'] %>
