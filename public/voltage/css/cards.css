@@ -1853,17 +1853,18 @@ a:hover .lnk-icon-right {
 }
 .fh5co-features-style-1 > .fh5co-overlay,
 .fh5co-features-style-5 > .fh5co-overlay {
+  background: #fff!important;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 2;
-  color: #19254b
 }
 .fh5co-features-style-1 .fh5co-heading,
 .fh5co-features-style-5 .fh5co-heading {
-  color: #fff;
+  background: #fff!important;
+  color: #19254b!important;
 }
 .fh5co-features-style-1 h3,
 .fh5co-features-style-5 h3 {
@@ -1874,11 +1875,11 @@ a:hover .lnk-icon-right {
 }
 .fh5co-features-style-1 h3,
 .fh5co-features-style-5 h3 {
-  color: #fff;
+  color: #19254b!important;
 }
 .fh5co-features-style-1 p,
 .fh5co-features-style-5 p {
-  color: rgba(255, 255, 255, 0.7);
+  color: #19254b!important;
 }
 .fh5co-features-style-1 .fh5co-features,
 .fh5co-features-style-5 .fh5co-features {
