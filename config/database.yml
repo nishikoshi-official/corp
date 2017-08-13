@@ -23,7 +23,7 @@ staging:
 
 production:
   <<: *default
-  database: corp
+  database: corp_production
   username: corp
   password: <%= ENV['APP_DATABASE_PASSWORD'] %>
   host: localhost
