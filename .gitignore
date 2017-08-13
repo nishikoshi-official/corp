@@ -17,3 +17,11 @@
 /yarn-error.log
 
 .byebug_history
+
+/vendor/bundle
+
+.DS_Store
+public/uploads
+
+.sass-cache/
+dump.rdb

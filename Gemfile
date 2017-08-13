@@ -51,7 +51,7 @@ group :development do
   gem 'capistrano-rails'
   gem 'capistrano-rbenv'
   gem 'capistrano3-unicorn'
-  gem 'capistrano-sidekiq'
+  # gem 'capistrano-sidekiq'
   gem 'better_errors'
   gem 'annotate'
 end
